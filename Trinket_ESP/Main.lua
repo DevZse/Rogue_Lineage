@@ -24,7 +24,7 @@ local function NewESP(Object, Info)
 	
 	ESP.Box = NewDrawing('Square', {
 		Thickness = 1,
-		ZIndex = 1
+		ZIndex = 2
 	})
 	
 	ESP.BoxOutline = NewDrawing('Square', {
